@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    tools:context=".Activity3">
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="86dp"
+        android:text="Network Faults"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="325dp"
+        android:layout_height="221dp"
+        android:background="@drawable/_0391769"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315">
+        <TextView
+            android:id="@+id/textdata"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Processing..."
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="25sp" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
